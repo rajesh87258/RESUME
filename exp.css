@@ -1,0 +1,108 @@
+/*Experience*/
+#experience-parent{
+    /* height: 80vh; */
+    /* width: 90%;
+    border: 2px solid black; */
+    display: inline-block;
+    display: flex;
+    /* margin-left: 5%; */
+
+}
+.experience-logo{
+    display: inline-block;
+    display: flex;
+    justify-content:center;
+    position: relative;
+   padding-left: 40%;
+   color: rgb(5, 5, 98);
+}
+.timeline{
+   position: relative;
+   width: 75%;
+   border: 2px solid black;
+   margin-left: 10%;
+   
+
+}
+.timeline-box{
+    position: relative;
+    margin: 5%;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa66;
+    top: 10%;
+    left: 53%;
+}
+.timeline-traveller{
+    position: sticky;
+    top: 23%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    position: absolute;
+    top: 22%;
+    right:-8.5%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height:0.5rem;
+    background-color: red;
+    z-index: 1;
+
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left:-13.2%;
+    border-radius: 50%;
+    width: 0.5rem;
+    height:0.5rem;
+    background-color: red;
+    z-index: 1;
+
+}
+.fill-up img{
+    position: relative;
+   
+ 
+    
+    width: 20%;
+    display: flex;
+}
+.ff1{
+    display: flex;
+    flex-direction: row;
+   justify-content: end;
+   position: relative;
+   margin-top:-13%;
+   color: blue;
+
+   
+}
+#fillup-1{
+    display: flex;
+    justify-content: end;
+    position: relative;
+   margin-top: -4%;
+   font-size: smaller;
+ font-style: italic;
+ color: red;
+}
+#fillup-2{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    font-size: 0.7rem;
+}
