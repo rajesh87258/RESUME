@@ -134,4 +134,10 @@ font-size: 1.9rem;
  #contact-parent:hover{
     transform: scale(1.1);
  }
-
+/* a:active{
+    color: black;
+}
+a:link{
+    color: aqua;
+}
+a:visited{color: #f60b0b;} */
