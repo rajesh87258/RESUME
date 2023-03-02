@@ -371,23 +371,25 @@ border: 2px solid white;
     
     
 
-     /*Experience*/
+   /*Experience*/
 #experience-parent{
     /* height: 80vh; */
     /* width: 90%;
     border: 2px solid black; */
-    display: inline-block;
-    display: flex;
+    /* display: inline-block; */
+    display: flex; 
     /* margin-left: 5%; */
+    /* border: 2px solid black; */
 
 }
 .experience-logo{
-    display: inline-block;
+    /* display: inline-block; */
     display: flex;
     justify-content:center;
     position: relative;
    padding-left: 40%;
    color: rgb(5, 5, 98);
+  
 }
 .timeline{
    position: relative;
@@ -478,4 +480,11 @@ border: 2px solid white;
     position: relative;
     justify-content: end;
     font-size: 0.7rem;
+}
+#section-heading{
+   margin-left: -5%;
+   
+}
+#section-heading:hover{
+    transform: scale(1.1);
 }
