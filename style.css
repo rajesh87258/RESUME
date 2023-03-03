@@ -95,7 +95,7 @@ section:nth-child(2n+1){
     margin-right: 0.5rem;
 }
 #about{
-    height: auto;
+    height: 100%;
     width: 100%;
     position: relative;
 }
@@ -380,6 +380,7 @@ border: 2px solid white;
     display: flex; 
     /* margin-left: 5%; */
     /* border: 2px solid black; */
+    width: auto;
 
 }
 .experience-logo{
@@ -417,7 +418,31 @@ border: 2px solid white;
     border: 3px dashed #0096fa66;
     top: 10%;
     left: 53%;
+    padding: 0px;
 }
+
+@media screen and (max-width:600px){
+    .timeline-divider{
+        left: 5%;
+    }
+    .timeline-box{
+        left: 10% !important;
+        width: 80%;
+    }
+    /* .timeline-box:nth-child(2n){
+        left: 12%;
+    } */
+    /* .timeline-box:nth-child(2n+1)::after{
+        left: -12%;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left: -12%;
+    } */
+    .timeline-box::after{
+        left: -12% !important;
+    }
+}
+
 .timeline-traveller{
     position: sticky;
     top: 23%;
@@ -485,6 +510,6 @@ border: 2px solid white;
    margin-left: -5%;
    
 }
-#section-heading:hover{
+/* #section-heading:hover{
     transform: scale(1.1);
-}
+} */
