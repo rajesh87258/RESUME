@@ -510,6 +510,6 @@ border: 2px solid white;
    margin-left: -5%;
    
 }
-/* #section-heading:hover{
+#section-heading:hover{
     transform: scale(1.1);
-} */
+}
